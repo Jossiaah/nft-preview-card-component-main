@@ -12,7 +12,7 @@ body {
 .container {
   background-color: hsl(217, 54%, 11%);
   max-width: 1440px;
-  min-height: 800px;
+  height: 815px;
   display: flex;
   justify-content: center;
 }
@@ -103,4 +103,18 @@ hr {
 
 span {
   color: hsl(215, 55%, 64%);
+}
+
+.creator_name {
+  color: #fff;
+}
+
+.creator_name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.name h3:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
